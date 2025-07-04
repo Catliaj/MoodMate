@@ -1,0 +1,44 @@
+.footer {
+  background-color: #1f2937; /* Tailwind's bg-gray-800 */
+  color: white;
+  padding: 2rem 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+  }
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.footer-icon {
+  margin-right: 0.5rem;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.footer-text {
+  color: #9ca3af; /* Tailwind's text-gray-400 */
+  text-align: center;
+}
